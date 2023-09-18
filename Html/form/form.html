@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>From in html</title>
+    <style>
+        body {
+            background-color: rgb(64, 192, 204);
+            color: black;
+            text-transform: capitalize;
+        }
+
+        legend {
+            text-align: center;
+            text-transform: uppercase;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>
+                    Student Registration From
+                </h1>
+            </legend>
+            <div>Name: <input type="text" placeholder="Name" /></div>
+            <br />
+            <div>father's name: <input type="text" placeholder="father's name" /></div>
+            <br />
+            <div>mother name: <input type="text" placeholder="mother name" /></div>
+            <br />
+            <div>phonenumber: <input type="text" placeholder="phonenumber" /></div>
+            <br />
+            <div>
+                <label for="email">Email :</label>
+                <input type="text" id="email" name=" email" value="" placeholder="email" />
+            </div>
+            <br />
+            <div>
+                Gender : <input type="radio" id="Gender" name="Gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="Gender" name="Gender" value="male" />
+                <label for="male">transparent</label>
+                <input type="radio" id="Gender" name="Gender" value="female" />
+                <label for="male">female</label>
+            </div>
+            <br />
+            <div>
+                Date of Birth :<input type="datetime-local" name="datatime" id="" />
+            </div>
+            <br />
+            <div>
+                Address :<input type="Address" id="Address" name="Address" value="" placeholder="Address" />
+            </div>
+            <br />
+            <div>
+                blood group :
+                <select name="drop-down">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="O">O</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A-">A-</option>
+                    <option value="A+">A+</option>
+                    <option value="B-">B-</option>
+                    <option value="B+">B+</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                Department :<input type="radio" /> BCA<input type="radio" /> BBA<input type="radio" />
+                CSE<input type="radio" /> BCOM<input type="radio" />
+            </div>
+            <br />
+            <div>
+
+                COURCE : JAVA<input type="checkbox" />
+                PYTHON<input type="checkbox" />
+                C<input type="checkbox" />
+                c++<input type="checkbox" />
+                HtML<input type="checkbox" />
+            </div>
+            <br>
+            <div>
+                Photo :<input type="file" />
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit" />
+                <input type="reset" value="reset" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
