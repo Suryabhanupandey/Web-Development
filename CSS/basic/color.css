@@ -1,0 +1,22 @@
+h1{
+    font-size: xx-large;
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: medium;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: red;
+    background-color: aquamarine;
+}
+body{ 
+    background-image: url("download.jpeg");
+    background-repeat: repeat-y;
+    height: 100px;
+    width: 250px;
+    background-color: pink;
+    
+}

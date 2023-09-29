@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="Amazon.css" /> -->
+    <style>
+        * {
+            text-transform: capitalize;
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+
+        #navbar {
+            height: 60px;
+            background-color: #363939;
+        }
+
+        button {
+            color: white;
+            background-color: #f08804;
+        }
+
+        #logo {
+            font-size: 25px;
+            color: #f08804;
+        }
+
+        a {
+            font-size: 20px;
+            margin-right: 200px;
+            text-decoration: none;
+        }
+
+        .contentBox {
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        #content {
+            height: 580px;
+        }
+
+        footer {
+            background-color: #363939;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <a id="logo">Amazon.in</a>
+            <a href="#"> Account</a>
+            <a href="#">Mycard</a>
+            <a href="#">Context</a>
+            <input placeholder="Search Amazon.in" />
+            <button>Search</button>
+        </div>
+    </header>
+    <div id="content">
+        <div class="contentBox" style="background-color: rgba(255, 0, 0, 0.5)">Buy your Favorite Book</div>
+        <div class="contentBox" style="background-color: rgba(0, 255, 0, 0.5)">Buy your Favorite pen</div>
+        <div class="contentBox" style="background-color: rgba(0, 0, 255, 0.5)">Buy your Favorite key </div>
+    </div>
+    <footer>
+        Made with &hearts;by Amazon <br />&#169;© 1996-2023, Amazon.com, Inc. or its affiliates
+    </footer>
+</body>
+
+</html>

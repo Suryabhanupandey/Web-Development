@@ -1,0 +1,32 @@
+#div1
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    padding: 25px;
+    display: inline;
+}
+#div2
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 15px;
+    padding: 25px;
+    display: inline;
+
+}
+#div3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(101, 156, 205);
+    margin: 15px;
+    padding: 25px;
+    display: inline;
+}
+body{
+    background-color: bisque;
+}
+ 

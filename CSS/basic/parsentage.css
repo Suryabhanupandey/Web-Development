@@ -1,0 +1,15 @@
+#box1{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    font-size: 60px;
+  }
+  #box2 {
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+    margin-left: 30%;
+    font-size:2em;
+    width: 15rem;
+  /* two time of perent font-size */
+  }

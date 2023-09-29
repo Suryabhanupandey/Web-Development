@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        #box1 {
+            background-color: blue;
+            position: static;
+            /*static means by default */
+        }
+
+        #box2 {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: red;
+        }
+
+        #box3 {
+            background-color: antiquewhite;
+            position:absolute ;
+            top: 20px;
+            left: 20px;
+        }
+        #box4{
+            position: fixed;
+            right: 20px;
+            bottom:20px;
+            width: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Position Playground</h1>
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    <div id="box4">box4</div>
+</body>
+
+</html>

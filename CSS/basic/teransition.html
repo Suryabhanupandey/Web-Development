@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: salmon;
+            height: 200px;
+            width: 200px;
+            /* border-radius:50% ;*/
+            border: 2px solid black;
+            animation-direction: reverse;
+            /* transition-duration: 2s;
+            transition-timing-function: steps(5);
+            transition-delay: 1s;
+            */
+            /* transition: all 2s ease-in 1s;*/
+
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            /* transition: all 2s ease-in 1s;*/
+            animation-name: colorAnimate;
+            animation-duration: 5s;
+            /* animation-timing-function: ease-in;*/
+            /* animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate ;*/
+            /*transform: rotate(360deg);
+           transform: scale(0.9,1);*/
+            animation: colorAnimate 4s ease-in 0s infinite normal;
+
+
+
+        }
+
+        @keyframes colorAnimate {
+            0% {
+                left: 0px;
+                background-color: aqua;
+
+            }
+
+            50%{
+                right: 200px;
+                background-color: red;
+                color: white;
+            }
+            100%{
+                background-color: blue;
+            }
+        }
+
+        /*div:hover {
+            /*background-color: yellow;
+            color: rgb(119, 0, 255);*/
+            /*transform: scale(2);*/
+            /*transform: rotate(180deg);
+            transform: translate(100px, 100px);*/
+            /*transform: skew(90deg);
+        }*/
+
+        div:active {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        This is a div
+    </div>
+
+</body>
+
+</html>

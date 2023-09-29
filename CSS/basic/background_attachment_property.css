@@ -1,0 +1,19 @@
+body {
+    background-image: url("img_tree.png");
+   background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 500px;
+    background-attachment: fixed;
+    font-size: x-large;
+    background-size: 400px;
+    color:brown;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  p{
+      text-transform: capitalize;
+      text-align: left;
+      color: black;
+  }

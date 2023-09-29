@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            height: 100px;
+            width: 200px;
+            display: inline-block;
+            border: 2px solid black;
+        }
+        #container{
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* flex-wrap: wrap; */
+            align-items: flex-start;
+            align-content: center;
+        }
+        #box1{
+            background-color: aqua;
+            
+        }
+        #box2{
+            background-color:rebeccapurple;
+            height: 200px;
+            flex-shrink: 1;
+            
+        }
+        #box3{
+            background-color: khaki;
+            height: 75px;
+            
+        }
+        #box4{
+            background-color: gray;
+            
+        }
+        #box5{
+            background-color: lawngreen;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Playground</h1>
+    <div id="container">
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    <div id="box4">box4</div>
+    <div id="box5">box5</div>
+    
+    
+</body>
+</html>

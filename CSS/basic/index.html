@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS</title>
+    <style>
+        .navbar {
+            padding: 0px;
+            margin: 0px;
+            flex-direction: row;
+            margin-right: 10px;
+            justify-content: space-around;
+        }
+
+        ul {
+            background-color: bisque;
+
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            color: black;
+        }
+
+        li {
+            display: inline-block;
+            background-color: aqua;
+        }
+
+        .outer {
+            height: 400px;
+            width: 400px;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .inner {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(224, 190, 210);
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul class="navbar">
+            <li><a href="#">Home</li>
+            <li><a href="#">About Us</li>
+            <li><a href="#">contact Us</li>
+            <li><a href="#">Help</li>
+        </ul>
+        <div class="outer">
+            <div class="inner">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
